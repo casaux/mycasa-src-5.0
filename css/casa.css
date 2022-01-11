@@ -1,0 +1,526 @@
+/* global overrides for casa template */
+
+
+html,body,.au-body{
+	height:100%;
+}
+
+main{f
+	background: #fff;
+}
+
+.banner {
+    height:0px;
+    border-bottom: 4pt solid black;
+    overflow: hidden !important;
+    padding:0 !important;
+    background: #313131;
+	color: #FFFFFF;
+
+}
+
+
+.banner a, .banner a:hover{
+    color: #FFFFFF;
+}
+
+.header{
+	background:#0080A2;
+	height:110px;
+}
+
+.header .logo{
+	margin:24px 0 0 4px;
+}
+
+.header .logo img{
+	height:64px;
+	content:url("../img/CASALOGO-white-i.svg");
+}
+
+.header .logo.au-body.au-body--dark{
+	float:left;
+	margin-left:8px;
+}
+
+.drap-header{
+	background:#F6CC33;
+	height:110px;
+}
+
+.drap-header .logo{
+	margin:24px 0 0 4px;
+}
+
+.drap-header .logo img{
+	height:64px;
+	content:url("../img/CASALOGO-black-i.svg");
+}
+
+.drap-header .logo.au-body.au-body--drap{
+	float:left;
+	margin-left:8px;
+}
+
+.au-body--dark {
+    background: #F6CC33!important;
+}
+
+.au-body--dark {
+    background: #0080A2!important;
+}
+
+.body header.au-header{
+    margin:1rem 0 0 0;
+    padding:0;
+}
+
+.casa-menu{
+    display:none;
+}
+
+.casa-sign-out{
+	display:block;
+	float:right;
+	margin-top:32px;
+}
+
+
+.date-entry{
+	margin-top:1rem;
+}
+
+.date-entry label{
+	font-size:.875rem;
+}
+
+.date-entry .date-day, .date-entry .date-month{
+	width:25%;
+	margin-right:2%;
+	float:left;
+}
+
+.date-entry .date-year{
+	width:46%;
+	float:left;
+}
+
+.date-guidance{
+	clear:both;
+	padding-top:0.85rem;
+	position:relative;
+	font-size:.875rem;
+}
+
+table.au-table th a{
+
+}
+
+table.au-table th:nth-child(1) a{
+
+}
+
+table.au-table th img{
+	display:none;
+}
+
+.footer .banner {
+    border: none;
+    padding:10px !important;
+    height:auto !important;
+		background:#313131;
+
+}
+
+.footer{
+	background:#4C4C4C;
+	margin-top:120px;
+	min-height:200px;
+	z-index:2000;
+	position: relative;
+	border-bottom: 10px solid #0080A2;
+}
+
+
+.footer-wrapper{
+	margin:auto;
+}
+
+.footer iframe{
+	margin:auto;
+	height:600px;
+	overflow:hidden;
+	width:100%;
+
+}
+
+
+.hidden{display: none!important;visibility: hidden;}
+
+#modal{
+	background:rgba(0,0,0,0.7);
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:999999;
+	display:none;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* modal */
+
+.casa-modal{
+	position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.5);z-index: 99999999;
+}
+
+.casa-modal-header, .casa-modal-footer, .casa-modal-body{
+	padding:1rem;
+}
+
+.casa-modal-inner{
+	margin: 1rem auto 0 auto;
+	background: #FFF;
+	min-width: 320px;
+	max-width: 480px;
+	border-radius: 10px;
+}
+
+.casa-modal-header{
+	border-bottom:1px solid #e5e5e5;
+	position: relative;
+}
+
+.casa-modal-close{
+	position:absolute;
+	top:1.2rem;
+	right:1.2rem;
+	width:20px;
+	height:20px;
+	background-image: url(../img/close.svg);
+	opacity:0.7;
+}
+
+.casa-modal-close span{
+	  visibility: hidden;
+}
+
+
+
+.casa-modal-footer{
+	border-top:1px solid #e5e5e5;
+}
+
+
+/* myCASA dashboard styles */
+
+
+.casa-dashboard p{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.casa-dashboard .row h2{
+    margin:0.5rem 0 0.5rem 0;
+}
+
+.casa-dashboard .row h3{
+    margin:0.5rem 0 0rem 0;
+}
+
+.casa-dashboard h1{
+    margin-bottom:2rem;
+}
+
+
+.casa-profile{
+    margin-bottom:1rem;
+}
+
+
+.casa-profile{
+    padding:1rem 0 1rem 0;
+    position: relative;
+}
+
+.casa-profile ul{
+    margin-left:0;
+    padding-left:0;
+}
+
+@media (min-width: 1200px){
+   .col-lg-12-align-right{
+    text-align: right;
+    }
+    .col-lg-12-align-center{
+    text-align: center;
+    }
+}
+
+.casa-profile li{
+    display:inline;
+    padding-right:0.5rem;
+
+}
+
+.casa-dashboard-row{
+    background: #f5f5f5;
+    margin-bottom: 1.5rem;
+}
+
+.casa-dashboard-item{
+    margin-bottom:1rem;
+}
+
+.casa-section{
+	padding-bottom: 1.25rem;
+
+}
+
+.casa-profiles{
+    margin-top:3rem;
+    clear:both;
+
+}
+
+
+.casa-profile-select{
+	background:#f5f5f5;
+	padding:1rem 1rem 1rem 1rem;
+	position:relative;
+	margin-bottom:.5rem;
+	min-height:7em;
+	/*border-radius: 5px;*/
+	line-height: 1.5;
+}
+
+.casa-profile-organisation, .casa-profile-select{
+    border-bottom: 3px solid #f69900;
+
+}
+
+.casa-profile-individual{
+    border-bottom: 3px solid #00bfe9;
+}
+
+/* status badges */
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+.badge-expired {
+    color: #FFFFFF;
+    background-color: #BB0C0F;
+}
+.badge-in-progress {
+    color: #FFFFFF;
+    background-color: #12b5ea;
+}
+.badge-foreign {
+    color: #000000;
+    background-color: #F5F5F5;
+}
+.badge-info {
+    background-color: #02BFE9;
+    color: #000;
+}
+.badge-beta {
+    background-color: #313131;
+    color: #FFFFFF;
+}
+
+.badge-rec {
+    color: #000000;
+}
+.badge-com {
+    color: #000000;
+}
+.badge {
+    /*display: inline-block;*/
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.casa-lapsed {
+    font-style: italic;
+    color: #636363;
+}
+
+.casa-external{
+	background-repeat:no-repeat;
+	padding-right:20px;
+	background-position: top right;
+	background-image:
+	        url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32;' xml:space='preserve'><style type='text/css'>.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class='st0' d='M23,17.4c0-0.8,0.6-1.4,1.4-1.4c0.8,0,1.4,0.6,1.4,1.4v8.4c0,2.3-1.9,4.2-4.2,4.2H6.2C3.9,30,2,28.1,2,25.8	V10.4c0-2.3,1.9-4.2,4.2-4.2h8.4c0.8,0,1.4,0.6,1.4,1.4C16,8.4,15.4,9,14.6,9H6.2c-0.8,0-1.4,0.6-1.4,1.4v15.4	c0,0.8,0.6,1.4,1.4,1.4h15.4c0.8,0,1.4-0.6,1.4-1.4V17.4z'/><path class='st0' d='M27.2,4.8h-7c-0.8,0-1.4-0.6-1.4-1.4S19.4,2,20.2,2h8.4C29.3,2,30,2.7,30,3.4v8.4c0,0.8-0.6,1.4-1.4,1.4	c-0.8,0-1.4-0.6-1.4-1.4V4.8z'/><path class='st0' d='M14.2,19.8c-0.5,0.5-1.4,0.5-2,0c-0.5-0.5-0.5-1.4,0-2L27.6,2.4c0.5-0.5,1.4-0.5,2,0c0.5,0.5,0.5,1.4,0,2	L14.2,19.8z'/></g></svg>");
+}
+
+
+/* javascript classes */
+.casa-hidden, .casa-errors{
+    display:none;
+}
+
+.casa-sort-header{
+	font-weight:normal;
+	text-decoration:none !important;
+}
+/*
+.casa-sort-header-sorted-asc a, .casa-sort-header-sorted-desc a{
+	font-weight:bold;
+
+}
+*/
+
+th.casa-sort-table td a::after{
+content: " ▼";
+opacity:0;
+}
+
+th.casa-sort-header-sorted-asc a::after{
+	content: " ▼";
+	opacity:1;
+}
+
+th.casa-sort-header-sorted-desc a::after{
+	content: " ▲";
+	opacity:1;
+}
+
+/* specific design system overrides */
+.au-label{
+    font-weight:bold;
+}
+
+section.au-callout{
+    margin-bottom:2rem;
+}
+.au-callout.casa-declaration{
+	background: #E9E9E9;
+}
+.casa-inline-form-subgroup{
+    float:left;
+    max-width:8rem;
+    margin-right:1rem;
+    margin-top:0 !important;
+}
+
+.casa-inline-form-subgroup.casa-inline-form-subgroup-lg{
+	max-width:18rem !important;
+	width:18rem !important;
+	margin-top:1rem;
+}
+
+.casa-inline-form-subgroup-lg::after, .casa-inline-form-group fieldset:after, .au-form-group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.casa-form-other-list{
+	margin-left:2.5rem;
+}
+
+.au-body .au-form-group{
+    margin-top:2rem;
+}
+
+
+.au-body hr{
+	margin-top:4rem;
+}
+.hr-divider {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 5em;
+}
+
+.hr-divider .rounded-border {
+    border: 1px solid #999;
+    background-color: white;
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 2px;
+}
+
+.au-btn.au-btn--drap{
+    
+    color: #000000;
+    background-color: #F6CC33;
+    border-color: #F6CC33;
+
+}
+
+/* device-specific media queries
+
+.casa-desktop-only, .casa-mobile-only{
+	display:none;
+} */
+
+@media (max-width: 991px) {
+  .casa-desktop-only{display: none;}
+	.casa-mobile-only{display:block;}
+	td.casa-mobile-only{display:table-cell;}
+}
+
+@media only screen and  (min-width: 1200px) {
+	.casa-desktop-only{display: block;}
+	.casa-mobile-only{display:none;}
+	td.casa-desktop-only{display:table-cell;}
+
+}
+
+
+
+
+
+/*autocomplete*/
+
+.autocomplete-suggestions {border: 2px solid; background: #FFFFFF; overflow: auto;}
+
+/* accessibiltiy theme overrides */
+
+.au-accordion--dark .au-body .au-accordion__title:focus,.au-accordion--dark .au-accordion__title:focus{outline-color:#FFE17D;}
+.au-body.au-body--dark a:focus, .banner a:focus{outline-color:#FFE17D;}
+.au-body.au-body--dark [tabindex="0"]:focus,.au-body.au-body--dark :target{outline-color:#FFE17D;}
+.au-btn.au-btn--dark:focus,a.au-btn.au-btn--dark:focus{outline-color:#FFE17D;}
+.au-cta-link.au-cta-link--dark:focus{outline-color:#FFE17D;}
+.au-control-input--dark .au-control-input__input:focus+.au-control-input__text:before,.au-control-input--dark .au-control-input__input:focus+.au-control-input__text:after{outline-color:#FFE17D;}
+.au-direction-link.au-direction-link--dark:focus{outline-color:#FFE17D;}
+.au-body--dark .au-progress-indicator--dark .au-body .au-progress-indicator__link:focus,.au-progress-indicator--dark .au-body .au-progress-indicator__link:focus,.au-body--dark .au-progress-indicator--dark .au-progress-indicator__link:focus,.au-progress-indicator--dark .au-progress-indicator__link:focus{outline-color:#FFE17D;}
+.au-select.au-select--dark:focus{outline-color:#FFE17D;}
+.au-tags.au-tags--dark>li>a:focus,.au-tags.au-tags--dark>li>button:focus,.au-tags.au-tags--dark>dd>a:focus,.au-tags.au-tags--dark>dd>button:focus{outline-color:#FFE17D;}
+.au-text-input.au-text-input--dark:focus{outline-color:#FFE17D;}
