@@ -376,6 +376,10 @@ table.au-table th img{
 .badge-com {
     color: #000000;
 }
+.badge-update {
+    color: #000000;
+    background-color: #02bfe9;
+}
 .badge {
     /*display: inline-block;*/
     padding: .25em .4em;
