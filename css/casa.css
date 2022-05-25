@@ -448,6 +448,11 @@ section.au-callout{
 .au-callout.casa-declaration{
 	background: #E9E9E9;
 }
+
+.au-callout.casa-notification{
+	border-left: #G2G2G2;
+	background: #E9E9E9;
+}
 .casa-inline-form-subgroup{
     float:left;
     max-width:8rem;
