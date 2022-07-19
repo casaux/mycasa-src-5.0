@@ -137,6 +137,12 @@ main{f
 	font-size:.875rem;
 }
 
+.au-page-alerts{
+	background:#fff;
+}
+
+
+
 table.au-table th a{
 
 }
@@ -472,6 +478,11 @@ section.au-callout{
 .au-callout.casa-notification{
 
     border-left: .25rem solid #ffc107;
+    background-color: #f5f5f5;
+}
+.au-callout.form-error{
+
+    border-left: .25rem solid #d60000;
     background-color: #f5f5f5;
 }
 .casa-inline-form-subgroup{
